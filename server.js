@@ -6,7 +6,7 @@ const menuItemRoutes = require('./routes/menuItemRoute.js')
 require('dotenv').config()
 
 
-const PORT = process.env.PORT || 300 
+const PORT = process.env.PORT || 3000 
 
 const app = express();
 
@@ -17,5 +17,5 @@ app.use('/menu',menuItemRoutes)
 
 
 app.listen(PORT, () => {
-  console.log("server staretd at port 300");
+  console.log("server staretd at port 3000");
 });
