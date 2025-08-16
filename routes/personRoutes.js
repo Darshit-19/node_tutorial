@@ -1,6 +1,5 @@
 const express = require("express");
 const Person = require("../models/person.js");
-const { message } = require("prompt");
 const router = express.Router();
 
 router.post("/", async (req, res) => {
